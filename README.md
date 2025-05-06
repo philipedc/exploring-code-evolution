@@ -76,11 +76,14 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/nestjs/nest
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
+2. Gráfico selecionado: Classes, interfaces, and type aliases
   
-3. Explicação: <EXPLICACAO_AQUI>
+3. Explicação: Entre 2020 e 2025, observamos três padrões claros no uso de declarações em TypeScript no repositório:
 
+Classes dispararam de 710 para 1 286 ocorrências, sinalizando migração crescente para um estilo orientado a objetos ou refatorações que extraem lógica para classes reutilizáveis. Um número elevado de clases indica um design modular e testável
 
+Interfaces oscilaram, caindo de 321 em 2020 para 260 em 2021, recuperando-se levemente até 301 em 2024–2025, sugerindo ajustes na modelagem de tipos (por exemplo, migração entre interfaces e type aliases).
 
+Type aliases cresceram de forma constante, de apenas 103 em 2020 para 216 em 2025, refletindo adoção de recursos avançados de tipagem
